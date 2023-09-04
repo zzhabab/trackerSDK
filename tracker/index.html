@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script src="./dist/index.js"></script>
+    <button target-key="btn">clickme</button>
+    <button>zzh</button>
+    <script>
+      new tracker({
+        requestUrl: 'http://localhost:9000/tracker',
+        historyTracker: true,
+        domTracker: true,
+        hashTracker: true,
+        jsError: true
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "zzh-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config rollup.config.js --bundleConfigAsCjs"
+  },
+  "keywords": ["前端","埋点","tracker"],
+  "author": "",
+  "files": ["dist"],
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^3.28.1",
+    "rollup-plugin-dts": "^6.0.0",
+    "rollup-plugin-typescript2": "^0.35.0"
+  }
+}
